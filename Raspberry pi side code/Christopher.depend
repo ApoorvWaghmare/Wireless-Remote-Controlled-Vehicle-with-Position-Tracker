@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1573023501 source:/home/pi/Desktop/Christopher/Christopher/BotController.cpp
+	<iostream>
+	<wiringPi.h>
+	"BotController.h"
+
+1573023501 /home/pi/Desktop/Christopher/Christopher/BotController.h
+
+1572955278 source:/home/pi/Desktop/Christopher/Christopher/AccTime.cpp
+	<wiringPiI2C.h>
+	"AccTime.h"
+
+1572955085 /home/pi/Desktop/Christopher/Christopher/AccTime.h
+	<iostream>
+	<ctime>
+
+1573024380 source:/home/pi/Desktop/Christopher/Christopher/TCPServer.cpp
+	<iostream>
+	<string.h>
+	<fcntl.h>
+	"TCPServer.h"
+
+1573024380 /home/pi/Desktop/Christopher/Christopher/TCPServer.h
+	<sys/socket.h>
+	<sys/types.h>
+	<netdb.h>
+	<netinet/in.h>
+
+1572954905 source:/home/pi/Desktop/Christopher/Christopher/XDisplacement.cpp
+	"XDisplacement.h"
+
+1572888689 /home/pi/Desktop/Christopher/Christopher/XDisplacement.h
+
+1572888879 source:/home/pi/Desktop/Christopher/Christopher/YDisplacement.cpp
+	"YDisplacement.h"
+
+1572888812 /home/pi/Desktop/Christopher/Christopher/YDisplacement.h
+
+1573061432 source:/home/pi/Desktop/Christopher/Christopher/main.cpp
+	<iostream>
+	"Bot.h"
+
+1573022146 /home/pi/Desktop/Christopher/Christopher/Bot.h
+	"TCPServer.h"
+	"BotController.h"
+	"AccelerometerInterface.h"
+	"Displacement.h"
+	"PositionComputer.h"
+
+1573021555 source:/home/pi/Desktop/Christopher/Christopher/CalculateCoordinate.cpp
+	<iostream>
+	"CalculateCoordinate.h"
+
+1573021787 /home/pi/Desktop/Christopher/Christopher/CalculateCoordinate.h
+	<ctime>
+	"AccelerometerInterface.h"
+	"Displacement.h"
+
+1573107604 source:/home/pi/Desktop/Christopher/Christopher/Bot.cpp
+	<ctime>
+	<iostream>
+	<chrono>
+	"Bot.h"
+
+1573106644 source:/home/pi/Desktop/Christopher/Christopher/AccelerometerInterface.cpp
+	<iostream>
+	<wiringPiI2C.h>
+	"AccelerometerInterface.h"
+
+1573062073 /home/pi/Desktop/Christopher/Christopher/AccelerometerInterface.h
+	<chrono>
+
+1573062501 /home/pi/Desktop/Christopher/Christopher/Displacement.h
+
+1573021889 source:/home/pi/Desktop/Christopher/Christopher/Displacement.cpp
+	"Displacement.h"
+
+1573062501 /home/pi/Desktop/Christopher/Christopher/PositionComputer.h
+	<chrono>
+	"AccelerometerInterface.h"
+	"Displacement.h"
+
+1573106775 source:/home/pi/Desktop/Christopher/Christopher/PositionComputer.cpp
+	<iostream>
+	"PositionComputer.h"
+
+1573057101 source:/home/pi/Desktop/Christopher/Christopher/ReportMaker.cpp
+	<iostream>
+	"ReportMaker.h"
+
+1573057101 /home/pi/Desktop/Christopher/Christopher/ReportMaker.h
+	<fstream>
+
